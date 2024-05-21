@@ -1,0 +1,61 @@
+/* Завдання 1 */
+.text-box > h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: gray;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.text-box > div + div {
+    color: red;
+}
+
+#greycol + div + div + h3 + p {
+    color: green;
+}
+/* Завдання 2 */
+th:first-child {
+    color: aqua;
+}
+
+th:nth-child(2) {
+    color: aquamarine;
+}
+
+td:nth-child(4n) {
+    color: chocolate;
+}
+
+td:nth-child(n+5) {
+    color: bisque;
+}
+
+
+th:last-child {
+    color: red;
+}
+
+td:nth-child(1):active:hover {
+    color: green;
+}
+
+td:nth-child(-n+5):hover {
+    color: yellow;
+}
+
+tr:first-child:active {
+    color: pink;
+}
+
+td:nth-child(6):hover {
+    color: brown;
+}
+
+td:last-child:active {
+    color: fuchsia;
+}
